@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fjalla+One&family=Lilita+One&family=Teko:wght@500&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Fjalla One", sans-serif;
 }
 
 body {
@@ -73,8 +76,8 @@ body {
   height: 50%;
   background: var(--clr);
   transform-origin: bottom right;
-  transform: rotate(calc(10.5deg * var(--i)));
-  clip-path: polygon(0 0, 20.5% 0, 100% 100%, 0 20.5%);
+  transform: rotate(calc((360deg / 37) * var(--i)));
+  clip-path: polygon(0 0, 16% 0, 100% 100%, 0 16%);
   display: flex;
   justify-content: center;
   align-items: center;
